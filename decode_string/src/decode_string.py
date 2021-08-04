@@ -14,7 +14,7 @@ def get_str(ea):
 def decode(ea_encoded):
     decoded = []
     encoded = get_str(ea_encoded)
-    length = len(ea_encoded)
+    length = len(encoded)
     xorkey = 0xff
     for e in encoded:
         decoded.append(e ^ xorkey)
