@@ -21,7 +21,7 @@ int main(void)
 {
 	unsigned char* str = "\xB7\x9A\x93\x93\x90\xDF\xA8\x90\x8D\x93\x9B\xFF";  // "Hello World\x00"
 
-    printf("%s\n", decode(str));
+    	printf("%s\n", decode(str));
     
 	return 0;
 }
