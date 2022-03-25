@@ -34,6 +34,6 @@ for x in gen_xrefs:
         decode(ea_encoded)
         for ea in range(x.frm-10, x.frm+5):
             PatchByte(ea, 0x90)                     # 필요 없는 부분은 NOP으로 패치
-            print(1)
+
 
         
